@@ -1,0 +1,4 @@
+-keep class com.dex.browser.DexJsBridge { *; }
+-keepattributes *Annotation*
+-dontwarn okhttp3.**
+-dontwarn kotlinx.coroutines.**
